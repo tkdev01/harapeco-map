@@ -10,10 +10,11 @@
       md6
     >
       <div class="text-center">
-        <logo />
-        <vuetify-logo />
+        <!-- <logo />
+        <vuetify-logo /> -->
       </div>
-      <v-card>
+      <iframe id="googleMap" src="https://www.google.com/maps/d/embed?mid=1efoj3MYRdsJb7c5cfSwf8OXcMtIf6K1d" width="640" height="480"></iframe>
+      <!-- <v-card>
         <v-card-title class="headline">
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
@@ -74,7 +75,7 @@
             Continue
           </v-btn>
         </v-card-actions>
-      </v-card>
+      </v-card> -->
     </v-flex>
   </v-layout>
 </template>
@@ -90,3 +91,6 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+
+</style>
