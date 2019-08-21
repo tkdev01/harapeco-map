@@ -13,7 +13,7 @@
         <!-- <logo />
         <vuetify-logo /> -->
       </div>
-      <iframe id="googleMap" src="https://www.google.com/maps/d/embed?mid=1efoj3MYRdsJb7c5cfSwf8OXcMtIf6K1d" width="640" height="480"></iframe>
+      <iframe id="googleMap" src="https://www.google.com/maps/d/embed?mid=1efoj3MYRdsJb7c5cfSwf8OXcMtIf6K1d" width="100%" height="480"></iframe>
       <!-- <v-card>
         <v-card-title class="headline">
           Welcome to the Vuetify + Nuxt.js template
