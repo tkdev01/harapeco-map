@@ -51,7 +51,11 @@
       <v-toolbar-title v-text="title" />
 
       <v-spacer />
-      <!-- Reload button -->
+      <!-- GitHub link -->
+      <v-btn text icon color="white" v-on:click="goToGitHub">
+        <i class="fab fa-github"></i>
+      </v-btn>
+      <!-- Reload button:href -->
       <v-btn text icon color="white" v-on:click="reloadNoCache">
         <i class="fas fa-sync-alt"></i>
       </v-btn>
@@ -116,13 +120,19 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Harapeco Map'
+      title: 'Harapeco Map',
+      links: [
+        {url: '', name:'GitHub'}
+      ],
     }
   },
   methods: {
     reloadNoCache: function() {
       // キャッシュを無視してサーバーからリロード
       window.location.reload(true);
+    },
+    goToGitHub: function() {
+      window.open('https://github.com/tkdev01/harapeco-map');
     },
   }
 }
