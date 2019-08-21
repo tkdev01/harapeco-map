@@ -1,4 +1,4 @@
-# harapeco-map
+# Harapeco Map
 
 > My groundbreaking Nuxt.js project
 

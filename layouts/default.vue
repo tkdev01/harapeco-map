@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app dark class="pixel-font">
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -48,6 +48,7 @@
       >
         <v-icon>mdi-minus</v-icon>
       </v-btn> -->
+      <img class="main-icon" src="@/assets/img/main-icon.png" height="32">
       <v-toolbar-title v-text="title" />
 
       <v-spacer />
@@ -93,7 +94,7 @@
       :fixed="fixed"
       app
     >
-      <span>&copy; 2019</span>
+      <span>&copy; 2019 Harapeco Map</span>
     </v-footer>
   </v-app>
 </template>
@@ -137,3 +138,15 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+@font-face {
+	font-family: PixelMplus12-Regular;
+	src: url('../assets/font/PixelMplus12-Regular.ttf') format("opentype");
+}
+.pixel-font {
+    font-family: PixelMplus12-Regular;
+}
+.main-icon {
+  margin-right: .5em;
+}
+</style>
