@@ -49,7 +49,12 @@
         <v-icon>mdi-minus</v-icon>
       </v-btn> -->
       <v-toolbar-title v-text="title" />
-      <!-- <v-spacer /> -->
+
+      <v-spacer />
+      <!-- Reload button -->
+      <v-btn text icon color="white" v-on:click="reloadNoCache">
+        <i class="fas fa-sync-alt"></i>
+      </v-btn>
       <!-- <v-btn
         icon
         @click.stop="rightDrawer = !rightDrawer"
@@ -113,6 +118,12 @@ export default {
       rightDrawer: false,
       title: 'Harapeco Map'
     }
+  },
+  methods: {
+    reloadNoCache: function() {
+      // キャッシュを無視してサーバーからリロード
+      window.location.reload(true);
+    },
   }
 }
 </script>
