@@ -12,7 +12,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'keywords', content: 'harapeco, ハラペコマップ, グルメマップ, ハラペコMap, harapeco map'},
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'おすすめのグルメ情報をシェア' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'おすすめのグルメ情報をシェア' },
+      { name="google-site-verification", content="QZ-ncMzL01uueWywLpexwbAIrn3YOhGIUnueqNeSYqo"},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
