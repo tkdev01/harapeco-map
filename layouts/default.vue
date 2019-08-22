@@ -113,9 +113,9 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          icon: 'far fa-edit',
+          title: 'Mapの編集方法',
+          to: '/howtoedit'
         }
       ],
       miniVariant: false,
