@@ -45,7 +45,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/pwa',
+    '@nuxtjs/onesignal',
+    '@nuxtjs/pwa'
   ],
   /*
   ** vuetify module configuration
@@ -65,6 +66,15 @@ export default {
           error: colors.deepOrange.accent4,
           success: colors.green.accent3
         }
+      }
+    }
+  },
+  oneSignal: {
+    init: {
+      appId: '6c85ad0b-e91f-4118-9f74-46b02cdd062b',
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
+        disable: true
       }
     }
   },
