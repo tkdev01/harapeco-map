@@ -45,6 +45,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['@nuxtjs/dotenv',{ filename: process.env.NODE_ENV !== 'production' ? "./config/.env.dev" : "./config/.env.prod" }],
     '@nuxtjs/onesignal',
     '@nuxtjs/pwa'
   ],
@@ -71,7 +72,8 @@ export default {
   },
   oneSignal: {
     init: {
-      appId: '6c85ad0b-e91f-4118-9f74-46b02cdd062b',
+      appId: process.env.ONESIGNAL_KEY,
+      safari_web_id: process.env.ONESIGNAL_SAFARI_KEY,
       allowLocalhostAsSecureOrigin: true,
       welcomeNotification: {
         disable: true
