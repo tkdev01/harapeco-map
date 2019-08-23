@@ -1,6 +1,6 @@
 <template>
   <v-layout>
-    <v-flex class="text-center">
+    <v-flex class="text-center body-2">
       <v-alert type="info">
         Mapの編集は<span class="font-weight-bold">「PC」</span>をご利用ください。<br>
         スマホからの編集には対応しておりません。m(_　_)m
@@ -26,8 +26,8 @@
                 <img src="~/assets/img/howtoedit2.png" width="100%" alt="イラスト1" />
                 <p>編集画面が表示されます。</p>
                 <img src="~/assets/img/howtoedit3.png" width="100%" alt="イラスト1" />
-                <p>画面左側のレイヤーを選択します。</p>
-                <p>※好みのレイヤーがない場合は作成することも可能です。</p>
+                <p>画面左側のレイヤを選択します。</p>
+                <p>※好みのレイヤがない場合は作成することも可能です。</p>
                 <br>
                 <p>検索ボックスから店名を検索</p>
                 <img src="~/assets/img/howtoedit7.png" width="100%" alt="イラスト1" />
@@ -52,7 +52,7 @@
               <p>編集画面が表示されます。</p>
               <img src="~/assets/img/howtoedit3.png" width="100%" alt="イラスト1" />
 
-              <p>レイヤー(和・洋・中)を選択し、ピンマークを選択します。</p>
+              <p>レイヤ(和・洋・中)を選択し、ピンマークを選択します。</p>
               <img src="~/assets/img/howtoedit4.png" width="100%" alt="イラスト1" />
 
               <p>お店の場所をクリックします。</p>

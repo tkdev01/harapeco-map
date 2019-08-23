@@ -1,7 +1,7 @@
 {
   "name": "harapeco-map",
   "version": "1.0.0",
-  "description": "おすすめのグルメ情報をシェアしよう！",
+  "description": "おすすめの飲食店情報をシェアしよう！",
   "author": "oyama",
   "private": true,
   "scripts": {

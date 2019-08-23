@@ -1,6 +1,6 @@
 # Harapeco Map
 
-> My groundbreaking Nuxt.js project
+A map for sharing recommended restaurants.
 
 ## Build Setup
 

@@ -26,7 +26,7 @@
       </div>
       <br>
       <p class="body-2">
-        右下のチャットアイコンから、お店情報を送信すると、
+        右下のチャットアイコンから、お店情報を送信すると、<br>
         Map情報を更新してくれるかもしれません..忙しくなければ
       </p>
       <!-- Small Chat -->
@@ -34,15 +34,12 @@
     </v-flex>
   </v-layout>
 </template>
-
+<!--
 <script>
 export default {
-  // components: {
-  //   Logo,
-  //   VuetifyLogo
-  // }
 }
 </script>
 <style lang="scss" scoped>
 
 </style>
+-->

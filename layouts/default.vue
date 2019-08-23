@@ -114,7 +114,7 @@ export default {
         },
         {
           icon: 'far fa-edit',
-          title: 'Mapの編集方法',
+          title: 'How to edit Map',
           to: '/howtoedit'
         }
       ],
