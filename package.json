@@ -1,7 +1,7 @@
 {
   "name": "harapeco-map",
   "version": "1.0.0",
-  "description": "My groundbreaking Nuxt.js project",
+  "description": "おすすめのグルメ情報をシェアしよう！",
   "author": "oyama",
   "private": true,
   "scripts": {
