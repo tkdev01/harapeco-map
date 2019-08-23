@@ -24,6 +24,13 @@
           </lazy-component>
         </no-ssr>
       </div>
+      <br>
+      <p>
+        右下のチャットアイコンから、お店情報を送信すると、<br>
+        Map情報を更新してくれるかもしれません..忙しくなければ
+      </p>
+      <!-- Small Chat -->
+      <script src="https://embed.small.chat/TMFDLQ4EMGMABU5QUT.js" async></script>
     </v-flex>
   </v-layout>
 </template>
