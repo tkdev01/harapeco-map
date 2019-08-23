@@ -45,7 +45,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    ['@nuxtjs/dotenv',{ filename: process.env.NODE_ENV !== 'production' ? "./config/.env.dev" : "./config/.env.prod" }],
+    // ['@nuxtjs/dotenv',{ filename: process.env.NODE_ENV !== 'production' ? "./config/.env.dev" : "./config/.env.prod" }],
     '@nuxtjs/onesignal',
     '@nuxtjs/pwa'
   ],
