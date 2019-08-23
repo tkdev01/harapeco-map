@@ -2,7 +2,7 @@
   <v-layout>
     <v-flex class="text-center body-2">
       <v-alert type="info">
-        Mapの編集は<span class="font-weight-bold">「PC」</span>をご利用ください。<br>
+        Mapの編集は<span class="font-weight-bold">「PC」</span>をご利用ください。
         スマホからの編集には対応しておりません。m(_　_)m
       </v-alert>
       <v-card>

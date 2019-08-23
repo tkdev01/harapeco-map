@@ -2,6 +2,8 @@
 
 A map for sharing recommended restaurants.
 
+Web site: https://harapeco-map.netlify.com
+
 ## Build Setup
 
 ``` bash

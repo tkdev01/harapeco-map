@@ -20,13 +20,13 @@
       <div v-else>
         <no-ssr>
           <lazy-component>
-           <iframe id="googleMap" src="https://www.google.com/maps/d/embed?mid=1efoj3MYRdsJb7c5cfSwf8OXcMtIf6K1d" width="700" height="550"></iframe>
+           <iframe id="googleMap" src="https://www.google.com/maps/d/embed?mid=1efoj3MYRdsJb7c5cfSwf8OXcMtIf6K1d" style="border:0; width: 80vw; height: 80vh"></iframe>
           </lazy-component>
         </no-ssr>
       </div>
       <br>
       <p class="body-2">
-        右下のチャットアイコンから、お店情報を送信すると、<br>
+        右下のチャットアイコンから、お店情報を送信すると、
         Map情報を更新してくれるかもしれません..忙しくなければ
       </p>
       <!-- Small Chat -->
@@ -41,5 +41,4 @@ export default {
 </script>
 <style lang="scss" scoped>
 
-</style>
--->
+</style>-->
