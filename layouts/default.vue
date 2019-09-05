@@ -55,12 +55,13 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-footer
+
+    <!-- <v-footer
       :fixed="fixed"
       app
     >
       <span>&copy; 2019 Harapeco Map</span>
-    </v-footer>
+    </v-footer> -->
   </v-app>
 </template>
 
