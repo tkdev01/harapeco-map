@@ -26,8 +26,7 @@
       </div>
       <br>
       <p class="body-2">
-        右下のチャットアイコンから、お店情報を送信すると、
-        Map情報を更新してくれるかもしれません..忙しくなければ
+        ご意見・ご要望は右下のチャットアイコンから受け付けています。
       </p>
       <!-- Small Chat -->
       <script src="https://embed.small.chat/TMFDLQ4EMGMABU5QUT.js" async></script>
