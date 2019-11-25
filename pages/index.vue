@@ -36,6 +36,7 @@
       </p>
       <!-- Small Chat -->
       <script src="https://embed.small.chat/TMFDLQ4EMGMABU5QUT.js" async></script>
+      <span>https://harapeco-map.netlify.com/</span>
     </v-flex>
   </v-layout>
 </template>
@@ -56,6 +57,8 @@ export default {
           this.longitude = position.coords.longitude;
           this.readMyMap();
         }.bind(this));
+      } else {
+        this.readMyMap();
       }
     },
     readMyMap: function() {
